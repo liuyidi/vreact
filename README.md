@@ -17,6 +17,6 @@ react
 - lint-staged lint检查钩子
 - commitlint  校验git commit message是否符合规范
 - commitizen  git提交信息格式化
-- cz-conventional-changelog 
+- cz-customizable/cz-conventional-changelog／cz-jira-smart-commit
 - standard-version   生成Change Log版本
 - eslint  代码检查

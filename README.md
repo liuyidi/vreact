@@ -33,6 +33,7 @@ react
 - eslint  代码检查
 - prettier 代码格式化
 - rimraf 删除功能
+- cross-env 跨平台
 - babel 代码转码工具
   - @babel/core
   - @babel/preset-env

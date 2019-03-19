@@ -9,7 +9,11 @@ module.exports = {
     node: true,
     es6: true
   },
-  extends: ['standard', 'standard-jsx'],
+  extends: [
+    'standard',
+    'standard-jsx',
+    'plugin:prettier/recommended'
+  ],
   rules: {
     'no-console': process.env.NODE_ENV !== 'production' ? 0 : 2,
     'no-useless-escape': 0,

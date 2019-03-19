@@ -15,12 +15,7 @@ module.exports = {
     {value: 'WIP',      name: 'WIP:      Work in progress'}
   ],
 
-  scopes: [
-    {name: 'accounts'},
-    {name: 'admin'},
-    {name: 'exampleScope'},
-    {name: 'changeMe'}
-  ],
+  scopes: [],
 
   // it needs to match the value for field type. Eg.: 'fix'
   /*
@@ -36,7 +31,7 @@ module.exports = {
   // override the messages, defaults are as follows
   messages: {
     type: 'Select the type of change that you\'re committing:',
-    scope: '\nDenote the SCOPE of this change (optional):',
+    // scope: '\nDenote the SCOPE of this change (optional):',
     // used if allowCustomScopes is true
     customScope: 'Denote the SCOPE of this change:',
     subject: 'Write a SHORT, IMPERATIVE tense description of the change:\n',

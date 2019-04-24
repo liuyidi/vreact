@@ -8,3 +8,7 @@ Component.prototype.setState = function(update, callback) {}
 Component.prototype.forceUpdate = function(callback) {}
 
 Component.prototype.render = function() {}
+
+export function enqueueRender(c) {
+  
+}

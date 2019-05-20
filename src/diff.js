@@ -10,4 +10,9 @@ function renderComponent (component) {
   if (!component.base && component.componentWillMount) {
     component.componentWillMount()
   }
+  
+  if (!component.base && component.componentWillReceiveProps) {
+    component.componentWillReceiveProps(component.props) 
+  }
 }
+

@@ -11,7 +11,7 @@ function renderComponent (component) {
     component.componentWillMount()
   }
   
-  if (!component.base && component.componentWillReceiveProps) {
+  if (component.base && component.componentWillReceiveProps) {
     component.componentWillReceiveProps(component.props) 
   }
 }

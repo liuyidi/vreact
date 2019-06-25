@@ -15,8 +15,8 @@ function renderComponent (component) {
     component.componentWillReceiveProps(component.props) 
   }
   
-  if () {
-  
+  if (component.base && component.componentWillReceiveProps) {
+    component.componentWillReceiveProps(component.props) 
   }
 }
 

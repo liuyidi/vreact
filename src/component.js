@@ -18,7 +18,9 @@ Component.prototype.setState = function (update, callback) {
 
 Component.prototype.forceUpdate = function (callback) {}
 
-Component.prototype.render = function() {}
+Component.prototype.render = function(vdom) {
+  return vdom
+}
 
 export function enqueueRender(c) {
   
